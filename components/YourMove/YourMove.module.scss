@@ -1,0 +1,11 @@
+@import "../../src/styles/colors";
+
+.disableButton {
+  border: 1px solid $light-gray-x2;
+  background-color: $light-gray-x3;
+  color: $light-gray-x1;
+
+  &:hover {
+    cursor: default;
+  }
+}
